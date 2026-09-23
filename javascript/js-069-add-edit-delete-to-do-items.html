@@ -1,0 +1,43 @@
+<!-- Source code is intentionally formatted line-by-line. -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Add/Edit/Delete To-do Items | S. Hasmitha</title>
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+    <body>
+        <header class="top">
+            <div class="wrap">
+                <h1>Add/Edit/Delete To-do Items</h1>
+                <p>JavaScript experiment: Add/Edit/Delete To-do Items</p>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="index.html">Back to JavaScript Programs</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class='demo'>
+                <span class='tag'>Experiment 69</span>
+                <h2>Add/Edit/Delete To-do Items</h2>
+                <p>
+                    <b>Description:</b> This practical demonstrates add/edit/delete to-do items using JavaScript with an interactive browser-based example.</p>
+                        <input id="task" placeholder="Enter a task">
+                        <button onclick="addTask()">Add</button>
+                        <ul id="tasks">
+                        </ul>
+                        <script>
+                            function addTask(){if(!task.value.trim())return;
+                            let li=document.createElement('li');
+                            li.textContent=task.value;
+                            li.onclick=()=>li.remove();
+                            tasks.appendChild(li);
+                            task.value=''}
+                        </script>
+                    </div>
+                </main>
+                <footer>S. Hasmitha · 250200430 · Section 5 · Web Technology and Internet Programming</footer>
+            </body>
+        </html>

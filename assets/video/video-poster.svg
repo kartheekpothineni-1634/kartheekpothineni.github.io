@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360">
+<rect width="640" height="360" fill="#312e81"/>
+<circle cx="320" cy="180" r="52" fill="#ffffff" opacity=".95"/>
+<polygon points="305,150 305,210 350,180" fill="#312e81"/>
+<text x="320" y="295" text-anchor="middle" fill="white" font-family="Arial" font-size="24">CSS Media Output</text>
+</svg>

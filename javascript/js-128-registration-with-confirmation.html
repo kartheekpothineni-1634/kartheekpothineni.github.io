@@ -1,0 +1,42 @@
+<!-- Source code is intentionally formatted line-by-line. -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Registration with Confirmation | S. Hasmitha</title>
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+    <body>
+        <header class="top">
+            <div class="wrap">
+                <h1>Registration with Confirmation</h1>
+                <p>JavaScript experiment: Registration with Confirmation</p>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="index.html">Back to JavaScript Programs</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class='demo'>
+                <span class='tag'>Experiment 128</span>
+                <h2>Registration with Confirmation</h2>
+                <p>
+                    <b>Description:</b> This practical demonstrates registration with confirmation using JavaScript with an interactive browser-based example.</p>
+                        <form id="form">
+                            <input id="name" placeholder="Name" required>
+                            <input id="email" type="email" placeholder="Email" required>
+                            <button>Validate</button>
+                        </form>
+                        <div id="r" class="result">
+                        </div>
+                        <script>
+                            form.onsubmit=e=>{e.preventDefault();
+                            r.textContent=form.checkValidity()?'Valid form!':'Please complete the fields.'}
+                        </script>
+                    </div>
+                </main>
+                <footer>S. Hasmitha · 250200430 · Section 5 · Web Technology and Internet Programming</footer>
+            </body>
+        </html>

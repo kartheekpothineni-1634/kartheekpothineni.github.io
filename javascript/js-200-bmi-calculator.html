@@ -1,0 +1,52 @@
+<!-- Source code is intentionally formatted line-by-line. -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>BMI Calculator | S. Hasmitha</title>
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+    <body>
+        <header class="top">
+            <div class="wrap">
+                <h1>BMI Calculator</h1>
+                <p>JavaScript experiment: BMI Calculator</p>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="index.html">Back to JavaScript Programs</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class='demo'>
+                <span class='tag'>Experiment 200</span>
+                <h2>BMI Calculator</h2>
+                <p>
+                    <b>Description:</b> This practical demonstrates bmi calculator using JavaScript with an interactive browser-based example.</p>
+                        <div class="demo">
+                            <input id="calc" readonly class="display-input">
+                            <div class="demo-grid">
+                                <button onclick="calc.value+='7'">7</button>
+                                <button onclick="calc.value+='8'">8</button>
+                                <button onclick="calc.value+='9'">9</button>
+                                <button onclick="calc.value+='/'">÷</button>
+                                <button onclick="calc.value+='4'">4</button>
+                                <button onclick="calc.value+='5'">5</button>
+                                <button onclick="calc.value+='6'">6</button>
+                                <button onclick="calc.value+='*'">×</button>
+                                <button onclick="calc.value+='1'">1</button>
+                                <button onclick="calc.value+='2'">2</button>
+                                <button onclick="calc.value+='3'">3</button>
+                                <button onclick="calc.value+='-'">−</button>
+                                <button onclick="calc.value+='0'">0</button>
+                                <button onclick="calc.value+='.'">.</button>
+                                <button onclick="try{calc.value=Function('return '+calc.value)()}catch{calc.value='Error'}">=</button>
+                                <button onclick="calc.value=''">C</button>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>S. Hasmitha · 250200430 · Section 5 · Web Technology and Internet Programming</footer>
+            </body>
+        </html>

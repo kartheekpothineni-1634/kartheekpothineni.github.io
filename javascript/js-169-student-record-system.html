@@ -1,0 +1,39 @@
+<!-- Source code is intentionally formatted line-by-line. -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Student Record System | S. Hasmitha</title>
+        <link rel="stylesheet" href="../assets/css/style.css">
+    </head>
+    <body>
+        <header class="top">
+            <div class="wrap">
+                <h1>Student Record System</h1>
+                <p>JavaScript experiment: Student Record System</p>
+                <nav>
+                    <a href="../index.html">Home</a>
+                    <a href="index.html">Back to JavaScript Programs</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class='demo'>
+                <span class='tag'>Experiment 169</span>
+                <h2>Student Record System</h2>
+                <p>
+                    <b>Description:</b> This practical demonstrates student record system using JavaScript with an interactive browser-based example.</p>
+                        <input id="val" placeholder="Enter value">
+                        <button onclick="localStorage.setItem('hasmitha',val.value);show()">Save</button>
+                        <button class="secondary" onclick="localStorage.removeItem('hasmitha');show()">Delete</button>
+                        <div id="r" class="result">
+                        </div>
+                        <script>
+                            function show(){r.textContent=localStorage.getItem('hasmitha')||'No saved value'}
+                        </script>
+                    </div>
+                </main>
+                <footer>S. Hasmitha · 250200430 · Section 5 · Web Technology and Internet Programming</footer>
+            </body>
+        </html>
